@@ -32,9 +32,9 @@ It also requires a number of Python packages:
 You will need to install *gfortran* for compiling *scipy*, *freetype* and *pkg-config* required by *matplotlib*, and *hdf5* required by *h5py* (C header files needed). These can't be compiled from source here.
 
 ### Prerequisite Installation
-First install *gfortran*, *freetype*, *pkg-config* and *hdf5*:
+First install *gfortran*, *freetype*, *pkg-config*, *hdf5* and *python-tk*:
 - on OSX: `brew install gcc freetype pkg-config homebrew/science/hdf5` (`gcc` has the `gfortran` compiler)
-- on linux (Ubuntu): `sudo apt-get install -y pkg-config gfortran libhdf5-dev libfreetype6-dev liblapack-dev`
+- on linux (Ubuntu): `sudo apt-get install -y pkg-config gfortran libhdf5-dev libfreetype6-dev liblapack-dev`python-tk
 
 We recommend package manager *pip* for installing required Python packages. To install *pip*:
 - on OSX: `sudo easy_install pip`
